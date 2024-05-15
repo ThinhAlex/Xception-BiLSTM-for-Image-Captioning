@@ -3,7 +3,7 @@ from torchvision import transforms
 import model
 import pytorch_lightning as pl
 from dataset import data_loader
-from pytorch_lightning.callbacks import EarlyStopping, StochasticWeightAveraging
+from pytorch_lightning.callbacks import EarlyStopping
 from pytorch_lightning.loggers import TensorBoardLogger
 from pytorch_lightning.callbacks import LearningRateMonitor
 
